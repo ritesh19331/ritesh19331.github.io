@@ -60,5 +60,33 @@ function typeWriter() {
   }
 }
 typeWriter()
+// let navbar=`<div id="section-home"><div>Home</div></div>
+// <div id="section-tag">
+//     <div id="tag-about-me" >About Me</div>
+//     <div id="tag-skill">Skills</div>
+//     <div id="project-tag">Project</div>
+//     <div id="contact-tag">Contact</div>
+//     <div id="resume-tag">Resume</div>
+// </div>`
+// document.getElementsByClassName("contrib-column contrib-column-first table-column").innerHTML="";
 
-document.getElementsByClassName("contrib-column contrib-column-first table-column").innerHTML="";
+// let intervalID;
+
+// function repeatEverySecond() {
+//   intervalID = setInterval(widthCheck, 100);
+// }
+
+// // document.querySelecto
+
+// function widthCheck() {
+//     console.log("hey")
+//   if(window.screen.availWidth<"500"){
+//     console.log("heyy")
+//     document.querySelector("#navbar").innerHTML="";
+//   } else if(window.screen.availWidth>="500"){
+//     document.querySelector("#navbar").innerHTML=navbar;
+//   }
+// }
+
+// repeatEverySecond();
+

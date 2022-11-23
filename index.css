@@ -323,7 +323,7 @@ body{
    margin: auto;
 }
 /* <-----tab view -------------------> */
-@media only screen and (max-width: 500px) and (min-width: 200px){
+@media only screen and (max-width: 800px) and (min-width: 200px){
    #home{
       
       /* width: 100%; */
@@ -423,20 +423,16 @@ body{
       margin-left: 10px;
    }
    
+   #gs-1{
+      display: grid;
+      grid-template-columns: 50%;
+      gap: 50px;
+   }
+   #gs-1>img{
+      width: 200%;
+   }
 
-   /* 
-  
-   #MyProjects{
-      height: fit-content;
-   }
-   
-   #skills >div {
-      height: fit-content;
-   }
-   
-   #body{
-      width: 100%;
-   } */
+
    
 }
 
@@ -444,3 +440,20 @@ body{
 
 
 
+
+
+@media only screen and (max-width: 1050px) and (min-width: 800px){
+   #gs-1{
+      display: grid;
+      grid-template-columns: 50%;
+      gap: 50px;
+   }
+   #gs-1>img{
+      width: 200%;
+   }
+   #project-1{
+      height: fit-content;
+      padding-bottom: 50px;
+   }
+
+}
