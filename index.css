@@ -77,7 +77,7 @@ body{
     font-size: 40px;
 }
 #home-name-col-2{
-    font-size: 80px;
+    font-size: 60px;
 }
 
 #home-name-col-3{
@@ -454,6 +454,17 @@ body{
    #project-1{
       height: fit-content;
       padding-bottom: 50px;
+   }
+   #tech-img{
+      grid-template-columns: repeat(3,1fr);
+      
+   }
+   #skills{
+      height: 130vh;
+   }
+
+   #home-name-col-2{
+      font-size: 40px;
    }
 
 }
