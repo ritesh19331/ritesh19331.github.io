@@ -17,7 +17,7 @@ document.querySelector("#project-4-code").addEventListener("click",function(){
   window.open("https://github.com/masai-course/ritesh_fw20_0402/tree/ffb32da1909e7c2bbd9996940f00e940b4d39ff8/unit-3/sprint-3/day-1/assignments","_blank");
 })
 document.querySelector("#project-3-live").addEventListener("click",function(){
-  window.open("https://drive.google.com/file/d/19Uwwl6JnaOOy0WKIGAMC5jUn1qylZx9Z/view?usp=sharing","_blank");
+  window.open("https://drive.google.com/file/d/1sbib9Ocqtynro8O1stOcscX6_K1-1JIN/view","_blank");
 })
 
 
