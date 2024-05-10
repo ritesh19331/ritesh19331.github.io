@@ -345,6 +345,8 @@ body{
     border: none;
  }
  #contact {
+   width: 50%;
+   margin: auto;
    margin-top: 20vh;
    height: fit-content;
    background-color: black;
